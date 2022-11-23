@@ -13,7 +13,89 @@
 
 <body>
 	<main>
-Main container
+		<section class="event-container">
+			<div class="header">
+				<h3>Create an Event</h3>
+				<figure>
+					<img src="./assets//cross.png" alt="Close">
+				</figure>
+			</div>
+			<div class="event-info-container">
+				<ul class="menu">
+					<li class="completed">Event info</li>
+					<li class="current">Event settings</li>
+					<li>Other</li>
+				</ul>
+				<div class="event-info">
+					<div class="event-link">
+						<span class="mandatory sub-heading">Event link</span>
+						<div class="event-link__type">
+							<a target="_blank" href="https://bookevent/events.com">https://bookevent/events.com</a>
+							<input type="text" value="coffee meeting">
+						</div>
+					</div>
+					<div class="event-duration">
+						<span class="mandatory sub-heading">Duration</span>
+						<div class="dropdown">
+							<ul>
+								<li>
+									<span>30 min</span>
+									<figure>
+										<img src="./assets//cross.png" alt="Close">
+									</figure>
+								</li>
+								<li>
+									<span>1 hr</span>
+									<figure>
+										<img src="./assets//cross.png" alt="Close">
+									</figure>
+								</li>
+							</ul>
+							<figure>
+								<img src="./assets//down.png" alt="Close">
+							</figure>
+						</div>
+					</div>
+					<div class="event-availability">
+						<span class="sub-heading">Availability</span>
+						<div class="available-days">
+							<ul class="days">
+								<li>S</li>
+								<li class="selected">M</li>
+								<li class="selected">T</li>
+								<li>W</li>
+								<li class="selected">T</li>
+								<li>F</li>
+								<li>S</li>
+							</ul>
+							<div class="time-range">
+								<div class="dropdown">
+									<span>9:00 am</span>
+									<figure>
+										<img src="./assets//down.png" alt="Close">
+									</figure>
+								</div>
+								<span class="separator">-</span>
+								<div class="dropdown">
+									<span>5:00 pm</span>
+									<figure>
+										<img src="./assets//down.png" alt="Close">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<button class="add-new-button">Add New</button>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-buttons">
+				<button class="back-button">Back</button>
+				<div class="bottom-right-buttons">
+					<button class="cancel-button">Cancel</button>
+					<button class="next-button">Next</button>
+				</div>
+			</div>
+		</section>
 	</main>
 </body>
 
